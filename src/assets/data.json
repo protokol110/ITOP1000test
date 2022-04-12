@@ -1,0 +1,16 @@
+{
+  "currencyList": [
+    {
+      "name": "USD",
+      "value": 20
+    },
+    {
+      "name": "EUR",
+      "value": 30
+    },
+    {
+      "name": "UAH",
+      "value": 10
+    }
+  ]
+}
