@@ -1,0 +1,10 @@
+<input id="inputCurr" type="number" min="0" ng-model="invoice.inputValue"/>
+<select data-ng-model="invoice.inCurr">
+  <option data-ng-repeat="curr in invoice.currencies"></option>
+</select>
+<br/>
+<br/>
+<input id="oututCurr" type="number" min="0" ng-model="invoice.output()"/>
+<select data-ng-model="invoice.outCurr">
+  <option data-ng-repeat="curr in invoice.currencies"></option>
+</select>
