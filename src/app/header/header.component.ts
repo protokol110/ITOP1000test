@@ -24,7 +24,7 @@ export class HeaderComponent implements OnInit {
       .subscribe((response) => {
         this.response = response;
         this.usd = this.response.find((usd: any) => usd.cc === "USD").rate
-        this.eur = this.response.find((usd: any) => usd.cc === "EUR").rate
+        this.eur = this.response.find((eur: any) => eur.cc === "EUR").rate
       })
   }
 }
